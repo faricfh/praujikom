@@ -32,9 +32,35 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+                    @guest
+                    @else
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 5</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 6</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 7</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 8</a>
+                        </li>
                     </ul>
+                    @endguest
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
