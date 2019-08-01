@@ -16,7 +16,7 @@ class CreateDetailPinjamsTable extends Migration
         Schema::create('detail_pinjams', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->unsignedBigInteger('peminjam_kode');
+            $table->unsignedBigInteger('peminjaman_kode');
             $table->foreign('peminjam_kode')->references('id')->on('peminjamen')->onDelete('cascade');
             
             $table->unsignedBigInteger('buku_kode');
