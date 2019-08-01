@@ -18,4 +18,5 @@ class KartuPendaftaran extends Model
     {
         return $this->belongsTo('App\Petugas','petugas_kode');
     }
+
 }

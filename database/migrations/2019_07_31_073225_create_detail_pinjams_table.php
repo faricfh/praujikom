@@ -17,7 +17,7 @@ class CreateDetailPinjamsTable extends Migration
             $table->bigIncrements('id');
 
             $table->unsignedBigInteger('peminjaman_kode');
-            $table->foreign('peminjam_kode')->references('id')->on('peminjamen')->onDelete('cascade');
+            $table->foreign('peminjaman_kode')->references('id')->on('peminjamen')->onDelete('cascade');
             
             $table->unsignedBigInteger('buku_kode');
             $table->foreign('buku_kode')->references('id')->on('bukus')->onDelete('cascade');
