@@ -16,6 +16,7 @@ class CreateBukusTable extends Migration
         Schema::create('bukus', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('kode');
+            
             $table->unsignedBigInteger('kategori_kode');
             $table->foreign('kategori_kode')->references('id')->on('kategoris')->onDelete('cascade');
 

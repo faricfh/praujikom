@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Faric Fathian Hidayah
+                    Faric F H
                 </div>
 
                 <div class="links">
