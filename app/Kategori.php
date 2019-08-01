@@ -11,7 +11,7 @@ class Kategori extends Model
 
     public function buku()
     {
-        return $this->hasMany('App\Buku','kategori_kode');
+        return $this->hasOne('App\Buku','kategori_kode');
     }
 
     public static function boot()
