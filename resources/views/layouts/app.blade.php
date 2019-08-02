@@ -32,22 +32,21 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    @guest
-                    @else
+                    @auth
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu 1</a>
+                            <a class="nav-link" href="#">MENU AUTH ROLE SUPER ADMIN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu 2</a>
+                            <a class="nav-link" href="#">MENU AUTH ROLE ADMIN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu 3</a>
+                            <a class="nav-link" href="#">MENU AUTH ROLE USER</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu 4</a>
+                            <a class="nav-link" href="#">MENU AUTH GLOBAL ROLE</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Menu 5</a>
                         </li>
                         <li class="nav-item">
@@ -57,10 +56,10 @@
                             <a class="nav-link" href="#">Menu 7</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu 8</a>
+                            <a class="nav-link" href="#">Menu 8</a> -->
                         </li>
                     </ul>
-                    @endguest
+                    @endauth
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
